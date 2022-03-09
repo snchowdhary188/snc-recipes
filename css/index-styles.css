@@ -1,0 +1,55 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://is1-ssl.mzstatic.com/image/thumb/Video115/v4/45/ff/ce/45ffce73-18f9-2fab-4153-f8465095f800/196292096927_1_1.jpg/1400x800sr-60.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+  letter-spacing: 0.1rem;
+  margin: 0;
+  backdrop-filter: blur(2px);
+}
+
+h1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 3.5rem;
+  margin: 0 0 5rem;
+  padding-top: 3rem;
+  color: #f4f4f4;
+}
+
+ul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style-type: none;
+  padding: 0;
+  max-width: 300px;
+  margin: auto;
+}
+
+li {
+  margin-top: 2rem;
+}
+
+i {
+  margin-right: 1rem;
+  color: rgb(130, 176, 214);
+  font-size: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+  color: #f4f4f4;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #bfbfbf;
+}
+
+/***************************** Media Queries ****************************/
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+}
